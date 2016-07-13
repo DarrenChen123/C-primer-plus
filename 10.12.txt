@@ -1,0 +1,43 @@
+2.4
+3.(1)数组、首元素
+  (2)第二个元素
+  (3)错误
+4.a.12,16
+  b.12,14
+5.a.12,16
+  b.12,14
+6.a.&grid[22][56]
+  b.(1)&grid[22][0]  (2)grid[22]
+  c.(1)&grid[0][0]  (2)grid[0]  (3)(int *)grid
+7.a.int digits[10];
+  b.float rates[6];
+  c.int mat[3][5];
+  d.char * psa[20];
+  e.char (* pstr) [20];
+8.a.int arr1[6] = {1, 2, 4, 8, 16, 32};
+  b.arr1[2];
+  c.int arr2[100] = {[99] = -1};
+9.0-9;
+10.a.T
+   b.F
+   c.F
+   d.F;
+   e.T;
+   f.F;
+   g.F
+   h.T.
+11.int arr[800][600];
+12.a. void func (double trots[], int n);
+      func (trots, 20);
+      void funcvla (int n, double trots[n]);
+      funcvla (20, trots);
+   b. void func (short clops[][30], int n);
+      func (clops, 10);
+      void funcvla (int n, int m, short clops[n] [m]);
+      funcvla (10, 30, clops);
+   c. void func (long shots[][10][15], int n);
+      func (shots, 5);
+      void funcvla (int a, int b, int c, long shots [a][b][c]);
+      funcvla (5, 10, 15, shots);
+13.a.show((int [4]){8, 3, 9, 2}, 4);
+   b.show2((int [][3]){{8, 3, 9}, {5, 4, 1}}, 2);

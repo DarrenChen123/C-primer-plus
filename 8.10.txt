@@ -1,0 +1,13 @@
+1.t f
+2.a.H
+  b.响铃
+  c.换行
+  d.退格。
+3. count < essay > essayct
+4. c
+5. end of file 
+6. a.If you qu
+   b.HJacrthjacrt
+7.stdio
+8.数字输入跳过空格和换行，而字符输入不会。
+

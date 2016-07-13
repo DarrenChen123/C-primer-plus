@@ -1,0 +1,27 @@
+1.形参是一个变量，在被调函数中进行定义。实参是在函数调用中传给被调函数的值。
+2.a.void donut (int n);
+  b.int gear (int a, int b);
+  c.void stuff_it (double a, double * p);
+3.a.char n_to_char (int n);
+  b.int digits (double a, int b);
+  c.int random (void);
+4. int sum (int a, int b) {return a + b;}
+5. double sum (double a, double b) {return a + b;}
+6. void alter (int *px, int *py) 
+  {
+    int temp;
+    temp = *px;
+    *px = temp + *py;
+    *py = temp - *px;
+  }
+7. void salami (int num, int count)
+  {
+    for (count = 1; count <= num; count++) printf ("0 salami mio!\n");
+  }
+8. int max (int a, int b, int c) {
+    int max = a;
+    if (max < b) max = b;
+    if (max < c) max = c;
+    return max;
+}
+

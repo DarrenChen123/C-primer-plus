@@ -1,0 +1,31 @@
+1. int main (void)
+ {
+ char name[] = {'F', 'e', 's', 's', '\0'};
+ ...
+ }
+5.a. Ho Ho Ho!! oH oH oH
+  b. char *
+  c. str
+  d. 前一个地址然后取值;取值然后-1.
+  e. Ho Ho Ho!! oH oH o
+  f. 判断是否指向空字符；判断是否在str范围内；
+  g. 死循环，越界。
+  h. 声明
+
+6.1,4,2
+
+7.int strlen (char * ch)
+{
+ int cnt = 0;
+ while (ch++) cnt++;
+ return cnt;
+}
+
+8. #include <stdio.h>
+   #include <string.h>
+   char * strblk (char * str)
+{
+ while (*string != ' ' && *string != '\0') string++;
+ if (*string == '\0') return NULL;
+ else return string;
+}

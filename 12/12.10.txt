@@ -1,0 +1,12 @@
+1.自动、寄存器、静态空连接
+2.静态外部，静态内部，静态空链接
+3.静态外部；静态内部
+4.空链接
+5.引用声明
+6.calloc把每个空间初始化为0
+7.daisy:main,petal，stem,root;
+  lily:main,petal中的引用错误;
+  lily:stem,root;
+  rose:stem,root;
+9.a.arr不可变
+  b.不会
